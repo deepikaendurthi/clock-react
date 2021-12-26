@@ -10,7 +10,7 @@ class Clock extends Component {
   }
 
   componentWillUnmount() {
-    console.log('component wiill unmount called')
+    console.log('componentwillunmount called')
     clearInterval(this.timerID)
   }
 
